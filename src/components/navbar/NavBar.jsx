@@ -14,7 +14,7 @@ const NavBar = () => {
                     <span
                     onMouseEnter={() => {setIsDetailDisplayerOpen(true)}}
                     onMouseLeave={() => {setIsDetailDisplayerOpen(false)}}
-                    >
+                    >                        
                         Find designers 
                         <i class="fa-solid fa-angle-down" />
                     </span>

@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.jobSection{
+    width: 450px;
+    border-radius: 8px;
+    padding: 24px 32px;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+}
+
+.jobSectionImportant{
+    border: 2px solid #ff70ec;
+    width: 450px;
+    border-radius: 8px;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 160px;
+}
+
+.jobSectionTitle{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #3d3d4e;
+}
+
+.jobDiscription{
+    color: #3d3d4e;
+    padding-bottom: 30px;
+}
+
+.priceDetails .price{
+    font-size: 34px;
+    font-weight: 500;
+    color: #3d3d4e;
+}
+
+.priceDetails .priceLable{
+    font-size: 14px;
+    color: #5d5d69;
+    padding-bottom: 14px;
+}
+
+.advantageList{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.advantageList i{
+    padding-right: 14px;
+    color: #4dc773;
+}
+
+.advantageList span{
+    padding-bottom: 14px;
+}
+
+.postAJob{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #000;
+    background: transparent;
+    width: 90%;
+    border-radius: 16px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.getStartedButton{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.getStartedButton:hover{
+    background-color: #0d0434;
+}
+
+.cancelLink{
+    color: #616161;
+    padding-top: 14px;
+    padding-left: 80px;
+}
+
+.jobSectionImportant .label{
+    padding: 14px 20px;
+    background-color: #ff70ec;
+    color: #fff;
+    margin-bottom: 24px;
+    width: 21%;
+    border-radius: 8px;
+    cursor: default;
+}
