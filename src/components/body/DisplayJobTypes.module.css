@@ -7,7 +7,7 @@
 
 .jobSection{
     width: 450px;
-    border-radius: 8px;
+    border-radius: 30px;
     padding: 24px 32px;
     border: 1px solid rgba(128, 128, 128, 0.411);
     display: flex;
@@ -18,7 +18,7 @@
 .jobSectionImportant{
     border: 2px solid #ff70ec;
     width: 450px;
-    border-radius: 8px;
+    border-radius: 30px;
     padding: 24px 32px;
     display: flex;
     flex-direction: column;
@@ -101,7 +101,8 @@
     background-color: #ff70ec;
     color: #fff;
     margin-bottom: 24px;
-    width: 21%;
+    width: 22%;
     border-radius: 8px;
     cursor: default;
+    font-weight: 600;
 }
