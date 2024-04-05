@@ -15,6 +15,10 @@
     padding-left: 34px;
 }
 
+.content{
+    font-size: 16px;
+}
+
 .userInfo{
     display: flex;
     align-items: center;
@@ -40,7 +44,7 @@
 
 .iconSection{
     width: 300px;
-    height: 300px;
+    height: auto;
     background: rgb(60,143,221);
     background: linear-gradient(180deg, rgba(60,143,221,1) 0%, rgba(254,197,243,1) 100%);
     border-radius: 16px;

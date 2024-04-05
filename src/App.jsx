@@ -5,6 +5,7 @@ import DisplayJobTypes from "./components/body/DisplayJobTypes"
 import CustomerSlideDisplayer from "./components/body/CustomerSlideDisplayer"
 import DisplayVideoContent from "./components/body/DisplayVideoContent"
 import OpinionSection from "./components/body/OpinionSection"
+import FeatureDisplayer from "./components/body/FeatureDisplayer"
 
 const App = () => {
     return(
@@ -15,6 +16,7 @@ const App = () => {
         <CustomerSlideDisplayer />
         <DisplayVideoContent />
         <OpinionSection />
+        <FeatureDisplayer />
       </div>
     )
 }
