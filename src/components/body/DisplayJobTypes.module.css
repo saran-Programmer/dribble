@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 90px;
-
 }
 
 .jobSection{
@@ -15,10 +13,12 @@
     flex-direction: column;
     margin-left: 160px;
     background-color: #fff;
+    margin-top: 90px;
 }
 
 .jobSectionImportant{
-    border: 2px solid #ff70ec;
+    border: 2.5px solid #ff70ec;
+    margin-top: 72px;
     width: 450px;
     border-radius: 30px;
     padding: 24px 32px;
@@ -28,9 +28,19 @@
     background-color: #fff;
 }
 
+.jobSectionImportant legend{
+    padding: 8px 12px;
+    background-color: #ffebfc;
+    color: #ff70ec;
+    border: 2.5px solid #ff70ec;
+    border-radius: 30px;
+    margin-left: 34.5%;
+}
+
 .jobSectionTitle{
     font-size: 24px;
     font-weight: 600;
+    padding-top: 15px;
     padding-bottom: 30px;
     color: #3d3d4e;
 }
@@ -99,7 +109,7 @@
     padding-left: 80px;
 }
 
-.jobSectionImportant .label{
+.label{
     padding: 14px 20px;
     background-color: #ff70ec;
     color: #fff;

@@ -18,9 +18,9 @@ const DisplayJobTypes = () => {
                 <button className={styles.postAJob}>Post A Job</button>
                 <div className={styles.cancelLink}>Cancel anytime. No strings attached.</div>
             </div>
-            <div className={styles.jobSectionImportant}>
+            <fieldset className={styles.jobSectionImportant}>
+                <legend>Most Popular</legend>
                 <span className={styles.jobSectionTitle}>Hiring Suite</span>
-                <span className={styles.label}>Most Popular</span>
                 <span className={styles.jobDiscription}>Tap into our ready-to-hire community of top designers with our seamless hiring solution.</span>
                 <div className={styles.priceDetails}>
                     <div className={styles.price}>$10/day</div>
@@ -35,7 +35,7 @@ const DisplayJobTypes = () => {
                 </div>
                 <button className={styles.getStartedButton}>Get Started</button>
                 <div className={styles.cancelLink}>Cancel anytime. No strings attached.</div>
-            </div>
+            </fieldset>
         </div>
     )
 }

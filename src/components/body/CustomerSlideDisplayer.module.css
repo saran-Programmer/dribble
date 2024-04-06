@@ -4,3 +4,43 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.sliderContainer{
+    margin-top: 48px;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.sliderContainer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px; 
+    height: 100%;
+    z-index: 1;
+    pointer-events: none; 
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    left: 0;
+
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    animation: slide 20s linear infinite;
+}
+
+.slider img{
+    height: 50px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+}
+}
