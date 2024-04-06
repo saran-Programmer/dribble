@@ -6,6 +6,8 @@ import CustomerSlideDisplayer from "./components/body/CustomerSlideDisplayer"
 import DisplayVideoContent from "./components/body/DisplayVideoContent"
 import OpinionSection from "./components/body/OpinionSection"
 import FeatureDisplayer from "./components/body/FeatureDisplayer"
+import BillingSection from "./components/body/BillingSection"
+import Footer from "./components/footer/Footer"
 
 const App = () => {
     return(
@@ -17,6 +19,8 @@ const App = () => {
         <DisplayVideoContent />
         <OpinionSection />
         <FeatureDisplayer />
+        <BillingSection />
+        <Footer />
       </div>
     )
 }

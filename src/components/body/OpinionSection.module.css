@@ -47,10 +47,17 @@
     height: auto;
     background: rgb(60,143,221);
     background: linear-gradient(180deg, rgba(60,143,221,1) 0%, rgba(254,197,243,1) 100%);
+    background-size: cover;
+    background-color: #000;
     border-radius: 16px;
     margin-left: 32px;
     font-size: 32px;
     color: #fff;
+    transition: background-size 0.3s ease; 
+}
+
+.iconSection:hover .icon{
+    transform: rotate(10deg) scale(1.08);
 }
 
 .icon{
@@ -65,8 +72,4 @@
 .icon img{
     width: 120px;
     height: auto;
-}
-
-.iconSection:hover .icon{
-    transform: rotate(10deg) scale(1.08);
 }

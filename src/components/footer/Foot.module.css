@@ -1,0 +1,98 @@
+.container{
+    margin-top: 68px;
+}
+
+.slideContainer {
+    overflow: hidden;
+    padding: 60px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    animation: slide 20s linear infinite;
+    gap: 40px;
+}
+
+.slider:hover {
+    animation-play-state: paused;
+}
+
+.slider .imageContainer{
+    position: relative;
+}
+
+.slider .imageContainer img {
+    height: 160px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.slider .imageContainer .imageDescription{
+    font-size:14px;
+    font-weight:600;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+}
+}
+
+.footNavBar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    gap: 45px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footNavBar .footerNarBarItem{
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 18px;
+}
+
+.footerLinks{
+    padding-left: 24px;
+}
+
+.footerLinks i{
+    font-size: 24px;
+    padding-right: 14px;
+    cursor: pointer;
+}
+
+.footerLogo{
+    width: 90px;
+    height: 35px;
+}
+
+.credentailas{
+    display: flex;
+    flex-direction: row;
+    color: #7c7c7c;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.credentailas .leftSide{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.credentailas .rightSide{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

@@ -39,7 +39,11 @@ const NavBar = () => {
                 </div>
             </nav>
             <div className={isDetailDisplayerOpen ? styles.detailsDisplayer : styles.detailsDisplayerClose}>
-                <div className={styles.designersDetails}>
+                <div 
+                className={styles.designersDetails}
+                onMouseEnter={() => {setIsDetailDisplayerOpen(true)}}
+                onMouseLeave={() => {setIsDetailDisplayerOpen(false)}}
+                >
                    <div className={styles.details}>
                         <span className={styles.title}>Designers Search</span>
                         <span className={styles.itemDetails}>Quickly find your next desiger</span>

@@ -7,7 +7,7 @@ const OpinionSection = () => {
         <div className={styles.container}>
             <div className={styles.contentSection}>
                 <div className={styles.content}>
-                "Dribbble is my go-to for hiring designers. It always provides a wealth of quality candidates and instantly builds my pipeline" highlights the speaker's positive experience and reliance on Dribbble, a popular online platform for showcasing creative work, particularly in design and digital arts. Let's elaborate on each part of the statementhighlights the speaker's positive experience and reliance on Dribbble, a popular online platform for showcasing creative work, particularly in design and digital arts. 
+                    "Dribbble is my go-to for hiring designers. It always provides a wealth of quality candidates and instantly builds my pipeline" highlights the speaker's positive experience and reliance on Dribbble, a popular online platform for showcasing creative work, particularly in design and digital arts. Let's elaborate on each part of the statementhighlights the speaker's positive experience and reliance on Dribbble, a popular online platform for showcasing creative work, particularly in design and digital arts. 
                 </div>
                 <div className={styles.userInfo}>
                     <img 
