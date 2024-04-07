@@ -24,6 +24,8 @@
 
 .slider .imageContainer img {
     height: 160px;
+    position: relative;
+    z-index: 1;
     border-radius: 8px;
     position: relative;
     z-index: 100;

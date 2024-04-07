@@ -10,6 +10,9 @@ import BillingSection from "./components/body/BillingSection"
 import Footer from "./components/footer/Footer"
 
 const App = () => {
+
+    document.title = "Dribble website";
+
     return(
       <div className={styles.container}>
         <NavBar />
