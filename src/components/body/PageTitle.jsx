@@ -1,11 +1,18 @@
 import styles from "./PageTitle.module.css"
 
-const PageTitle = () => {
+const PageTitle = ({handleOverLayStatusChange, isAdmin}) => {
+
+    const handleOverLayStateChange = () => {
+        handleOverLayStatusChange()
+    }
+
     return(
         <div className={styles.container}>
             <div className={styles.title}>
                 DRIBBBLE HIRING
             </div>
+            {(isAdmin) ? <button className={styles.addJobType} onClick={handleOverLayStateChange}>Add Job Types</button> : null}
+            
             <div className={styles.pageContent}>
                 Hire the world's top designers
             </div>

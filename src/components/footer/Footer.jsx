@@ -39,6 +39,7 @@ const Footer = () => {
                     imageList.map(e => (
                         <div className={styles.imageContainer}>
                             <img src={e.image} alt="Company Qualities" />
+                            <div className={styles.stackOne}></div>
                             <span className={styles.imageDescription}>
                                 {e.description}
                             </span>
