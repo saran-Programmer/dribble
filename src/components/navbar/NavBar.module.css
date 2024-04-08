@@ -21,6 +21,18 @@
     font-size: 14px;
 }
 
+.rightSide li{
+    padding-left: 32px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.linkBar {
+    color: #000;
+    text-decoration: none !important;
+}
+
 .rightSide span:hover{
     color: #7c7d87;
 }

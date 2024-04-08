@@ -1,6 +1,7 @@
 import styles from "./NavBar.module.css"
 import Logo from "../../assets/logo.jpg"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
     
@@ -25,6 +26,9 @@ const NavBar = () => {
                     >Courses <i class="fa-solid fa-angle-down" /></span>
                     <span>Jobs</span>
                     <span>Go Pro</span>
+                    <Link to="/"><span className={styles.linkBar}>Client</span></Link>
+                    <Link to="/admin"><span className={styles.linkBar}>Admin</span></Link>
+
                 </div>
                 <div className={styles.logo}>
                     <img src={Logo} alt="Logo" />

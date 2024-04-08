@@ -1,6 +1,6 @@
 import styles from "./PageTitle.module.css"
 
-const PageTitle = ({handleOverLayStatusChange, isAdmin}) => {
+const PageTitle = ({handleOverLayStatusChange,isAdmin}) => {
 
     const handleOverLayStateChange = () => {
         handleOverLayStatusChange()
