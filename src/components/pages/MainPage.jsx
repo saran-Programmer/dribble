@@ -5,6 +5,7 @@ import PageTitle from "../body/PageTitle"
 import OverLay from "../overLay/OverLay"
 import CustomerSlideDisplayer from "../body/CustomerSlideDisplayer"
 import DisplayVideoContent from "../body/DisplayVideoContent"
+import BillingSection from "../body/BillingSection"
 import OpinionSection from "../body/OpinionSection"
 import FeatureDisplayer from "../body/FeatureDisplayer"
 
@@ -31,7 +32,9 @@ const MainPage = ({isAdmin, jobElementList, setJobElementList}) => {
             <CustomerSlideDisplayer />
             <DisplayVideoContent />
             <OpinionSection />
+            <BillingSection userList={jobElementList}/>
             <FeatureDisplayer />
+            
             <Footer />
         </div>
     )

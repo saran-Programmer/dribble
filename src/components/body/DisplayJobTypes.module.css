@@ -1,6 +1,7 @@
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -122,5 +123,14 @@
 
 .getJobButton{
     padding: 14px 24px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.getJobButton:hover{
+    background-color: #0d0434;
 }
 
